@@ -2,37 +2,87 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#portfolio{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-flow: column nowrap;
+}
+
+
+#navbar{
+  top: 0;
+  position: sticky;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  z-index: 1;
+}
+
+#navbar div{
+  padding: 0px 20px;
+  padding-top: 5px;
+}
+
+#navbar div a{
   color: white;
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
-.App-link {
-  color: #61dafb;
+#welcome-section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#welcome-section div{
+  padding-top: 15%;
+  font-size: 3em;
+  line-height: 0.5px;
+}
+
+#welcome-section h1{
+  color: crimson;
+}
+
+#welcome-section div small{
+  color: white;
+  font-size: 25px;
+}
+
+h1, 
+h2{
+  line-height: 1px;
+}
+
+#projects{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  height: 88vh;
+}
+
+#projects div{
+  width: 350px;
+  height: 250px;
+  background-color: black;
+}
+
+@media (max-width: 600px){
+  #welcome-section{
+    background-color: whitesmoke;
   }
-  to {
-    transform: rotate(360deg);
+
+  #welcome-section div small{
+    color: black;
   }
 }
