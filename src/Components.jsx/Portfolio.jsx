@@ -20,7 +20,7 @@ class Protfolio extends Component {
                         <small><i>Software Engineer</i></small>
                     </div>
                 </section>
-
+                <div id="hr-section"></div>
                 <section id="projects">
                     <div className="project-tile">
                         <a href="www.google.com">Calculator</a>

@@ -58,6 +58,10 @@
   font-size: 25px;
 }
 
+#hr-section{
+  border: 1px solid whitesmoke;
+}
+
 h1, 
 h2{
   line-height: 1px;
@@ -69,12 +73,13 @@ h2{
   justify-content: space-evenly;
   padding: 20px;
   height: 88vh;
+  background-color: rgb(2, 0, 0);
 }
 
 #projects div{
   width: 350px;
   height: 250px;
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 @media (max-width: 600px){
