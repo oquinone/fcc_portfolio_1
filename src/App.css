@@ -51,11 +51,13 @@
 
 #welcome-section h1{
   color: crimson;
+  font-size: 2em;
+  text-decoration: underline;
 }
 
 #welcome-section div small{
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #hr-section{

@@ -17,7 +17,9 @@ class Protfolio extends Component {
                 <section id="welcome-section">
                     <div>
                         <h1>Hey I'm Omar</h1>
-                        <small><i>Software Engineer</i></small>
+                        <small><i>Software Engineer · </i></small>
+                        <small><i>Weight Lifter · </i></small>
+                        <small><i>Runner</i></small>
                     </div>
                 </section>
                 <div id="hr-section"></div>
