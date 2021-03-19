@@ -1,39 +1,49 @@
 import React, { Component } from 'react';
+import './Portfolio.scss';
 
 class Protfolio extends Component {
     // state = {  }
     render() { 
         return (
             <div id="portfolio">
-                <nav id="navbar">
-                    <div>
-                        <a href="#projects">Projects</a>
-                    </div>
-                    <div>
-                        <a id="profile-link" href="https://github.com/oquinone/" target="_blank">Github</a>
-                    </div>
-                </nav>
+                <header id="name-intro">
+                    <h1>Omar Quinones</h1>
+                </header>
 
-                <section id="welcome-section">
-                    <div>
-                        <h1>Hey I'm Omar</h1>
-                        <small><i>Software Engineer · </i></small>
-                        <small><i>Weight Lifter · </i></small>
-                        <small><i>Runner</i></small>
-                    </div>
-                </section>
-                <div id="hr-section"></div>
-                <section id="projects">
-                    <div className="project-tile">
-                        <a href="www.google.com">Calculator</a>
-                    </div>
-                    <div className="project-tile">
-                        <a href="www.google.com">Client</a>
-                    </div>
-                    <div className="project-tile">
-                        <a href="www.google.com">Test</a>
-                    </div>
-                </section>
+                {/* <section> */}
+                <div id="about">
+                    <h2>About<hr/></h2>
+                    <p>
+                        Future Software Engineer. Graduated from UC Santa Cruz in 2020 with a degree in Computer Science. On my free time
+                        I like to lift weights, do yoga, and learn new technologies. Currently I am interested in becoming a full stack engineer.
+                    </p>
+                </div>
+
+                <div>
+                    <h2>Languages</h2><hr/>
+                    <p>C++/C, Java, Javascript, Python</p>
+                </div>
+
+                <div>
+                    <h2>Technologies</h2>
+                    <p>React, Sass, HTML, CSS, Bootstrap, Flexbox, git, Agile Principles, Linux/Unix, Firebase</p>
+                </div>
+                
+                <div id="Certifications">
+                    <h2>Certificates</h2>
+                </div>
+
+                <div id="Realtime Chatbox">
+                    <h2>Realtime Chatbox</h2>
+                </div>
+
+                <div id="weather-app">
+                    <h2>Weather App</h2>
+                </div>
+
+                <div id="Javasccript Calculator">
+                    <h2>Javascript Calculator</h2>
+                </div>
             </div>
         );
     }
