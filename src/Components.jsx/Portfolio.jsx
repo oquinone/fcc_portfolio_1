@@ -6,7 +6,13 @@ class Protfolio extends Component {
     render() { 
         return (
             <div id="portfolio">
-                <header id="name-intro">
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="https://github.com/oquinone" id="profile-link" target="_blank">Github</a></li>
+                    </ul>
+                </nav>
+                <header id="welcome-section">
                     <h1>Omar Quinones</h1>
                 </header>
 
@@ -32,17 +38,18 @@ class Protfolio extends Component {
                 <div id="Certifications">
                     <h2>Certificates</h2>
                 </div>
+                <div id="projects">
+                    <div id="Realtime Chatbox" className="project-tile">
+                        <h2>Realtime Chatbox</h2>
+                    </div>
 
-                <div id="Realtime Chatbox">
-                    <h2>Realtime Chatbox</h2>
-                </div>
+                    <div id="weather-app" className="project-tile">
+                        <h2>Weather App</h2>
+                    </div>
 
-                <div id="weather-app">
-                    <h2>Weather App</h2>
-                </div>
-
-                <div id="Javasccript Calculator">
-                    <h2>Javascript Calculator</h2>
+                    <div id="Javasccript Calculator" className="project-tile">
+                        <h2><a href="https://oquinone.github.io/javascript_calculator/">Javasccript Calculator</a></h2>
+                    </div>
                 </div>
             </div>
         );
